@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Labour Day Profile Ring</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4 flex flex-col items-center">
+  <h1 class="text-3xl font-bold mb-4">✊ Add a Labour Day Ring</h1>
+  
+  <input type="file" id="upload" accept="image/*" class="mb-4">
+  <canvas id="canvas" width="400" height="400" class="shadow-xl border-4 rounded-full bg-white"></canvas>
+
+  <div class="mt-4">
+    <button onclick="downloadImage()" class="bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700">
+      Download Profile Picture
+    </button>
+  </div>
+
+  <a href="https://buymeacoffee.com/yourname" target="_blank" class="mt-4 inline-block text-yellow-800 font-medium">
+    ☕ Support me on Buy Me a Coffee
+  </a>
+</body>
+</html>
